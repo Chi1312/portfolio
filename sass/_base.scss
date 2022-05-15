@@ -1,0 +1,25 @@
+$color-primary: #292f36;
+$color-primary-dark: #81968f;
+$color-secondary-light: #accfc4;
+$color-secondary-dark: #b1f1ea;
+$color-accent: #e76f51;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Akshar", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-size: cover;
+  background-color: $color-primary;
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serban Nacu &mdash; Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="drum-machine.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+
+  </head>
+  <body>
+    <header class="header ">
+      <nav class="main-nav ">
+        <ul class="main-nav__list ">
+          <li class="main-nav__item">
+            <a href="#projects" class="main-nav__link">Projects</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#contact" class="main-nav__link">Contact</a>
+          </li>
+          <!-- <li class="main-nav__item">
+            <a href="" class="main-nav__link">About me</a>
+          </li> -->
+        </ul>
+      </nav>
+
+      <section class="section-hero  ">
+        <div class="hero container  ">
+          <img src="img/hero.webp" alt="" class="hero__img" />
+          <div class="hero__content">
+            <div class="hero__text">I'm Serban, a Web Designer <br>and Front-End Developer</div>
+            <div class="hero__buttons">
+              <a href="resume/Serban-Nacu_resume.pdf" target="blank" download="serban_resume" class="hero__button">Download resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="container container__skills  ">
+      <h1 class="heading-primary u-no-bg-img">Skills & technologies</h1>
+      <div class="icons-container">
+        <div class="icn-cont">
+          <img src="img/icons8-html-5-50.svg" class="icon" alt="">
+          <h2 class="icon-heading">HTML 5</h2>
+        </div>
+        <div class="icn-cont">
+          <img src="img/icons8-css3-logo-50.svg" class="icon" alt="">
+          <h2 class="icon-heading">CSS 3</h2>
+        </div>
+        <div class="icn-cont">
+         <img src="img/icons8-js-squared.svg" class="icon js" alt="">
+         <h2 class="icon-heading">JavaScript</h2>
+        </div>
+        <div class="icn-cont">
+         <img src="img/icons8-bootstrap.svg" class="icon" alt="">
+         <h2 class="icon-heading">Bootstrap</h2>
+        </div>
+        <div class="icn-cont">
+         <img src="img/icons8-sass-50.svg" class="icon" alt="">
+         <h2 class="icon-heading">SCSS</h2>
+        </div>
+        <div class="icn-cont">
+         <img src="img/icons8-git-50.svg" class="icon" alt="">
+         <h2 class="icon-heading">Git</h2>
+        </div>
+        <div class="icn-cont">
+         <img src="img/icons8-github-50.svg" class="icon" alt="">
+         <h2 class="icon-heading">GitHub</h2>
+        </div>
+        <div class="icn-cont">
+          <img src="img/icons8-adobe-photoshop-50.svg" class="icon" alt="">
+          <h2 class="icon-heading">Photoshop</h2>
+        </div>
+        <div class="icn-cont">
+          <img src="img/icons8-adobe-illustrator-50.svg" class="icon" alt="">
+          <h2 class="icon-heading">Illustrator</h2>
+        </div>
+        <div class="icn-cont">
+          <img src="img/icons8-3ds-max-50.svg" class="icon" alt="">
+          <h2 class="icon-heading">3DS Max</h2>
+        </div>
+        <div class="icn-cont">
+          <img src="img/icons8-stack-overflow-50.svg" class="icon" alt="">
+          <h2 class="icon-sun">&#127774;</h2>
+        </div>
+      </div>
+    </section>
+
+      <section class="section-projects" id="projects">
+        <div class="container__projects ">
+          <h1 class="heading-primary">My projects</h1>
+
+          <div class="projects-grid">
+            <div class="card">
+              <h2 class="card__title">Retreats website</h2>
+              <div class="card__image-container">
+                <img src="img/projects/meditate.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                Website created using HTML, SCSS (Sass) and JavaScript for a fictional company that specializes in booking retreats all over the world. In this project I learned about advanced CSS animations, bringing the whole website to life.
+              </p>
+              <div class="card__btn-container">
+                <a href="https://retreats-website.netlify.app/" target="_blank" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Drumkit subscription</h2>
+              <div class="card__image-container">
+                <img src="img/projects/drumkit.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                Website created using HTML, CSS and JavaScript for a fictional company that offers subscription based drum samples for musicians. The layout of the website was created using both CSS flexbox and grid. In this project I learned a lot about design theory and how to apply it.
+              </p>
+              <div class="card__btn-container">
+                <a href="https://drumkit-store.netlify.app/" target="_blank" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Bootstrap website</h2>
+              <div class="card__image-container">
+                <img src="img/projects/bootstrap.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                Website created using HTML, CSS and Bootstrap for a fictional web development bootcamp. In this project I learned how Bootstrap can be used to quickly create responsive web-pages and how to connect to the Mapbox API.
+              </p>
+              <div class="card__btn-container">
+                <a href="https://bootstrap-project-serban.netlify.app/" target="_blank" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+          
+
+          
+            <div class="card">
+              <h2 class="card__title">Shiny Pokedex</h2>
+              <div class="card__image-container">
+                <img src="img/projects/pokedex.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                In this project I used HTML, CSS and JavaScript to create a Shiny Pokedex using the fetch API. The script connects to the Pokemon API and fetches data (information about the Pokemon and the pictures) and displays it in a grid. 
+              </p>
+              <div class="card__btn-container">
+                <a href="https://shiny-pokedex.netlify.app/" target="_blank"  class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Holiday website</h2>
+              <div class="card__image-container">
+                <img src="img/projects/hotel.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                Single page holiday booking app created using HTML and SCSS (Sass) for a fictional all-in-one booking company that offers flights, rentals and tours. In this project I learned a lot about flexbox and how to use it to create a beautiful layout.
+              </p>
+              <div class="card__btn-container">
+                <a href="https://hotel-project-serban.netlify.app/" target="_blank" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Netlify Clone </h2>
+              <div class="card__image-container">
+                <img src="img/projects/netlify.png" alt="" class="card__image" />
+              </div>
+              <p class="card__description">
+                Clone of the Netlify website created using HTML and SCSS (Sass). In this project, rather than creating my own design, I started with a design that already exists and I reproduced it in code. The layout is created using CSS flexbox and CSS grid.
+              </p>
+              <div class="card__btn-container">
+                <a href="https://netlify-clone-serban.netlify.app/" target="_blank" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <h2 class="card__title">Portfolio</h2>
+              <div class="card__image-container card__image-container-portfolio">
+                
+              </div>
+              <p class="card__description">
+                You're already here, take a look! Portfolio created using HTML, SCSS (Sass), JavaScript and the Mapbox API. In this project I learned how to design and develop a whole project (and a drum machine), from paper to code.
+              </p>
+              <div class="card__btn-container">
+                <a href="#" class="card__btn">Live Demo</a>
+                <a href="#" class="card__btn">View Code</a>
+              </div>
+            </div>
+          </div>
+      </section>
+   
+
+    <section class="section-about container  " id="contact">
+      <h1 class="about__title">Let's work together!</h1>
+      <form action="https://formsubmit.co/chi.beatz1312@gmail.com" method="POST" class="form">
+        <h2 class="heading-secondary form-heading">Send me a message:</h2>
+        <input type="hidden" name="_subject" value="New submission!">
+        <input type="name" name="name" placeholder="Full name" required class="form__email">
+        <input type="email" name="email" placeholder="Email Address" required class="form__email">
+        <input type="text" placeholder="Write your message here" name="name" required class="form__text">
+        <input type="hidden" name="_next" value="thanks.html">
+        <button type="submit" class="form__button card__btn">Send</button>
+      </form>
+
+      <h1 class="about__title current-location">Current Location:</h1>
+
+      <div id='map' class="map"></div>
+        <script>
+          mapboxgl.accessToken = 'pk.eyJ1IjoiY2hpMTMxMiIsImEiOiJjbDM3YmZpNW0wZjM1M2RvMGtveXcwbGQyIn0.himDjAQpIIKZdLvCJxRj0Q';
+        const map = new mapboxgl.Map({
+        style: 'mapbox://styles/mapbox/dark-v10',
+        center: [1.1825, 52.0576],
+        zoom: 11.64,
+        pitch: 45,
+        bearing: -17.6,
+        container: 'map',
+        antialias: true
+        });
+         
+        map.on('load', () => {
+        // Insert the layer beneath any symbol layer.
+        const layers = map.getStyle().layers;
+        const labelLayerId = layers.find(
+        (layer) => layer.type === 'symbol' && layer.layout['text-field']
+        ).id;
+         
+        // The 'building' layer in the Mapbox Streets
+        // vector tileset contains building height data
+        // from OpenStreetMap.
+        map.addLayer(
+        {
+        'id': 'add-3d-buildings',
+        'source': 'composite',
+        'source-layer': 'building',
+        'filter': ['==', 'extrude', 'true'],
+        'type': 'fill-extrusion',
+        'minzoom': 15,
+        'paint': {
+        'fill-extrusion-color': '#aaa',
+         
+        // Use an 'interpolate' expression to
+        // add a smooth transition effect to
+        // the buildings as the user zooms in.
+        'fill-extrusion-height': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        15,
+        0,
+        15.05,
+        ['get', 'height']
+        ],
+        'fill-extrusion-base': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        15,
+        0,
+        15.05,
+        ['get', 'min_height']
+        ],
+        'fill-extrusion-opacity': 0.6
+        }
+        },
+        labelLayerId
+        );
+        });
+        </script>
+    </section>
+
+
+    <section class="section-mpc container  ">
+      <div class="mpc">
+        <div class="drum-machine">
+          <div class="left-side-fo-real">
+            <div class="q-link">
+              <div class="knob"></div>
+              <ul class="dots">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <div class="q-link-container">
+                <div class="knob knob-q"></div>
+                <div class="knob knob-q"></div>
+                <div class="knob knob-q"></div>
+                <div class="knob knob-q"></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="left-side">
+            <div class="screen">
+              <div class="led">
+                <a href="https://www.instagram.com/_chi1312/" target="_blank"
+                  ><span class="led-text">Want to play some drums before you leave?</span></a
+                >
+              </div>
+            </div>
+            <ul class="buttons-main">
+              <div class="button-main"></div>
+              <div class="button-main"></div>
+              <div class="button-main"></div>
+              <div class="button-main"></div>
+              <div class="button-main"></div>
+              <div class="button-main"></div>
+            </ul>
+            <div class="drum-pad">
+              <div class="pad-row">
+                <div data-key="49" class="pad kit-1 wider-button">1</div>
+                <div data-key="50" class="pad kit-1 wider-button">2</div>
+                <div data-key="51" class="pad kit-1 wider-button">3</div>
+                <div data-key="52" class="pad kit-1 wider-button">4</div>
+              </div>
+              <div class="pad-row">
+                <div data-key="81" class="pad kit-1 wide-button">Q</div>
+                <div data-key="87" class="pad kit-1 wide-button">W</div>
+                <div data-key="69" class="pad kit-1 wide-button">E</div>
+                <div data-key="82" class="pad kit-1 wide-button">R</div>
+              </div>
+              <div class="pad-row">
+                <div data-key="65" class="pad kit-2">A</div>
+                <div data-key="83" class="pad kit-2">S</div>
+                <div data-key="68" class="pad kit-2">D</div>
+                <div data-key="70" class="pad kit-2">F</div>
+              </div>
+              <div class="pad-row">
+                <div data-key="90" class="pad kit-2">Z</div>
+                <div data-key="88" class="pad kit-2">X</div>
+                <div data-key="67" class="pad kit-2">C</div>
+                <div data-key="86" class="pad kit-2">V</div>
+              </div>
+  
+              <audio data-key="90" src="drum_sounds/kick1.wav"></audio>
+              <audio data-key="88" src="drum_sounds/snare.wav"></audio>
+              <audio data-key="67" src="drum_sounds/hat1.wav"></audio>
+              <audio data-key="86" src="drum_sounds/openhat.wav"></audio>
+              <audio data-key="65" src="drum_sounds/prekick.wav"></audio>
+              <audio data-key="68" src="drum_sounds/hat2.wav"></audio>
+              <audio data-key="83" src="drum_sounds/shaker.wav"></audio>
+              <audio data-key="70" src="drum_sounds/tamb.wav"></audio>
+  
+              <audio data-key="81" src="drum_sounds/kick2.wav"></audio>
+              <audio data-key="87" src="drum_sounds/snare2.wav"></audio>
+              <audio data-key="69" src="drum_sounds/hat3.wav"></audio>
+              <audio data-key="82" src="drum_sounds/openhat.wav"></audio>
+              <audio data-key="49" src="drum_sounds/prekick2.wav"></audio>
+              <audio data-key="50" src="drum_sounds/clap2.wav"></audio>
+              <audio data-key="51" src="drum_sounds/hat4.wav"></audio>
+              <audio data-key="52" src="drum_sounds/bell.wav"></audio>
+            </div>
+          </div>
+          <div class="right-side">
+            <ul class="logo">
+              <li class="mkai">MKAI</li>
+              <li class="prof">PROFESSIONAL</li>
+            </ul>
+            <div class="buttons-row first">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+            <div class="buttons-row">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+            <div class="buttons-row">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+            <div class="buttons-row">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+  
+            <div class="big-knob">
+              <div class="button-main small-button-left"></div>
+              <div class="knob"></div>
+              <div class="small-button-right">
+                <div class="button-main button-main-right"></div>
+                <div class="button-main button-main-right"></div>
+              </div>
+            </div>
+            <div class="buttons-row">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+  
+            <div class="arrow-button-container">
+              <div class="button-main button-main-right button-utility"></div>
+              <div class="arrow-button">
+                <ion-icon
+                  name="arrow-dropleft"
+                  class="arrow-left icon"
+                ></ion-icon>
+                <div class="arrow-up-down">
+                  <ion-icon name="arrow-dropup" class="icon"></ion-icon>
+                  <ion-icon name="arrow-dropdown" class="icon"></ion-icon>
+                </div>
+                <ion-icon
+                  name="arrow-dropright"
+                  class="arrow-right icon"
+                ></ion-icon>
+              </div>
+              <div class="button-main button-main-right button-utility"></div>
+            </div>
+  
+            <div class="buttons-row">
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+              <div class="button-main button-main-right"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    
+    
+
+    <footer class="footer container  ">
+      <div class="back-top">
+        <a href="#" class="back-top-icon"><ion-icon name="arrow-dropup"></ion-icon></a>
+      </div>
+      <ul class="footer__list">
+        <div class="footer__container">
+          <li class="list-item"><a href="#projects" class="footer__link">Projects</a></li>
+          <li class="list-item"><a href="#contact" class="footer__link">Contact</a></li>
+        </div>
+        <p class="footer__copyright">&copy; 2022, Serban Nacu. All rights reserved.</p>
+      </ul>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
